@@ -1,0 +1,30 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        // masa molara a moleculelor [kg/mol]
+        int masaHidrogen= 1;
+        int masaCarbon=12;
+        int masaOxigen=16;
+        int masaAzot=14;
+        int masaSulf= 32;
+
+
+        // numarul de atomi dintr-o molecula
+        // NECESITA EDITARE MANULA
+        int atomiHidrogen=0;
+        int atomiCarbon=0;
+        int atomiOxigen=0;
+        int atomiAzot=0;
+        int atomiSulf=0;
+
+        // calculul pt 1 mol de molecula, rezultatul v-a fi  in kg
+        int masa=masaHidrogen*atomiHidrogen + masaCarbon*atomiCarbon + masaOxigen*atomiOxigen + masaAzot*atomiAzot + masaSulf*atomiSulf;
+
+        //aratam rezultatul
+        System.out.println("1 mol din aceasta substanta are masa de = "+ masa+"kg");
+
+    }
+}
