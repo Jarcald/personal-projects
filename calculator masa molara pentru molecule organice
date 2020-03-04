@@ -25,6 +25,7 @@ public class Main {
 
         //aratam rezultatul
         System.out.println("1 mol din aceasta substanta are masa de = "+ masa+"kg");
+        
 
     }
 }
